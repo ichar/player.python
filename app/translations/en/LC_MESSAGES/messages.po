@@ -1,0 +1,437 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-06-18 21:49+0400\n"
+"PO-Revision-Date: 2015-07-05 23:13+0300\n"
+"Last-Translator: ichar@g2.ru\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+"X-Generator: Poedit 1.5.5\n"
+
+msgid "#"
+msgstr "№"
+
+msgid "An unexpected error has occurred"
+msgstr "An unexpected error has occurred!"
+
+msgid "at"
+msgstr "at"
+
+msgid "About"
+msgstr "About of program"
+
+msgid "All"
+msgstr "All"
+
+msgid "Any parameters should be selected before the culculating."
+msgstr "Any parameters should be selected before the culculating."
+
+msgid "Attention"
+msgstr "WARNING!"
+
+msgid "Are you really going to create an order? Please, confirm."
+msgstr ""
+"Are you really going to create an order with selected completing? Please, "
+"confirm."
+
+msgid "Automatically update the calculations"
+msgstr "Automatically update the calculation changes"
+
+msgid "Back"
+msgstr ""
+
+msgid "Base article"
+msgstr "Base article of product"
+
+msgid "Business Company"
+msgstr "Business Company"
+
+msgid "Calculate"
+msgstr ""
+
+msgid "Calculator"
+msgstr ""
+
+msgid "Calculate the cost"
+msgstr ""
+
+msgid "Calculation is not performed."
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cancel search"
+msgstr ""
+
+msgid "Caption"
+msgstr ""
+
+msgid "Complete name"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "Confirm notification form"
+msgstr ""
+
+msgid "Check the data to calculate the cost of completing:"
+msgstr "Check the data to calculate the cost of completing with:"
+
+msgid "Client"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Close page"
+msgstr ""
+
+msgid "Code"
+msgstr ""
+
+msgid "Commands"
+msgstr "Commands of calculation control"
+
+msgid "Collapse"
+msgstr ""
+
+msgid "Collapse form groups"
+msgstr ""
+
+msgid "Cost notification form"
+msgstr ""
+
+msgid "Count"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Custom Calculation"
+msgstr "Calculation"
+
+msgid "Custom"
+msgstr ""
+
+msgid "Custom code"
+msgstr "Calculation code"
+
+msgid "Custom Order"
+msgstr "Order"
+
+msgid "Data not found!"
+msgstr "Data not found. Please check the request parameters."
+
+msgid "Date"
+msgstr ""
+
+msgid "Decline"
+msgstr ""
+
+msgid "Done"
+msgstr "Order"
+
+msgid ""
+msgstr " Company"
+
+msgid "Go back"
+msgstr ""
+
+msgid "error"
+msgstr ""
+
+msgid "Error: translation service not configured."
+msgstr ""
+
+msgid "Error: translation service not available."
+msgstr ""
+
+msgid "Error information"
+msgstr ""
+
+msgid "Error: Unexpected error."
+msgstr "Unexpected error!"
+
+msgid "Execution error"
+msgstr ""
+
+msgid "Expand"
+msgstr ""
+
+msgid "File Not Found"
+msgstr ""
+
+msgid "Find"
+msgstr ""
+
+msgid "Forward"
+msgstr ""
+
+msgid "Full screen"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Help information"
+msgstr ""
+
+msgid "Helper keypress guide"
+msgstr ""
+
+msgid "Helper Configurator Main Page"
+msgstr ""
+
+msgid "Helper Configurator Order Log Page"
+msgstr ""
+
+msgid "Expand form groups"
+msgstr ""
+
+msgid "Forward search"
+msgstr ""
+
+msgid "Icon Toolbar"
+msgstr ""
+
+msgid "Information"
+msgstr ""
+
+msgid "Load"
+msgstr ""
+
+msgid "Load selected order"
+msgstr ""
+
+msgid "Make an order"
+msgstr ""
+
+msgid "Monitor price changes"
+msgstr ""
+
+msgid "Moscow"
+msgstr ""
+
+msgid "not calculated"
+msgstr ""
+
+msgid "n/a"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No connection!"
+msgstr ""
+
+msgid "No data..."
+msgstr ""
+
+msgid "Not valid response!"
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Open Calculate form"
+msgstr ""
+
+msgid "Open Order form"
+msgstr ""
+
+msgid "Open Log page"
+msgstr ""
+
+msgid "Open Price statistics"
+msgstr ""
+
+msgid "Open Save form"
+msgstr ""
+
+msgid "Open Search panel"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Order confirmation form"
+msgstr ""
+
+msgid "Order date"
+msgstr ""
+
+msgid "Order document"
+msgstr ""
+
+msgid "Order log"
+msgstr ""
+
+msgid "Order notification form"
+msgstr ""
+
+msgid "Order parameters control form"
+msgstr ""
+
+msgid "Order type"
+msgstr "Type"
+
+msgid "Parameters"
+msgstr ""
+
+msgid "Please, confirm"
+msgstr ""
+
+msgid "Please, try more."
+msgstr ""
+
+msgid "Please, wait the system response."
+msgstr "Please, wait response..."
+
+msgid "Price"
+msgstr ""
+
+msgid "Price article"
+msgstr ""
+
+msgid "Price information"
+msgstr ""
+
+msgid "Price statistics"
+msgstr ""
+
+msgid "Product Version"
+msgstr ""
+
+msgid "Products"
+msgstr ""
+
+msgid "Reference documents"
+msgstr ""
+
+msgid "Rating"
+msgstr ""
+
+msgid "Region"
+msgstr ""
+
+msgid "Reject"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "RT"
+msgstr ""
+
+msgid "Russia"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save confirmation form"
+msgstr ""
+
+msgid "Save notification form"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Search context"
+msgstr ""
+
+msgid "Search Icon buttons"
+msgstr ""
+
+msgid "Session is expired notification"
+msgstr "The server session is expired."
+
+msgid "Sort by"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Standard Calculation"
+msgstr ""
+
+msgid "Statistics"
+msgstr ""
+
+msgid "Successfully created."
+msgstr ""
+"Your order is sent for confirmation procedure to the department of the "
+"dealership of GK «»."
+
+msgid "Successfully saved."
+msgstr ""
+
+msgid "System information"
+msgstr ""
+
+msgid "System is not available notification"
+msgstr ""
+"The calculating system of GK «» productions is unavailable now.<br>We "
+"apologize for the inconvenience."
+
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr ""
+
+msgid "The cost"
+msgstr "Price"
+
+msgid "The cost is estimated."
+msgstr ""
+"Estimated price without VAT. The final price will be sent in the order "
+"confirmation."
+
+msgid "The dynamics of the cost of equipment"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Total in Order log"
+msgstr ""
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Type of order"
+msgstr ""
+
+msgid "The order was not created by the error."
+msgstr ""
+
+msgid "The order was not saved by the error."
+msgstr ""
+
+msgid "Type the following operation result:"
+msgstr ""
+
+msgid "unauthorized client"
+msgstr ""
+
+msgid "undefined"
+msgstr ""
+
+msgid "Undefined client name"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+

@@ -1,0 +1,457 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-05-12 18:31+0400\n"
+"PO-Revision-Date: 2015-07-05 20:54+0300\n"
+"Last-Translator: ichar@g2.ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+"X-Generator: Poedit 1.5.5\n"
+
+msgid "#"
+msgstr "№"
+
+msgid "An unexpected error has occurred"
+msgstr "Неожиданная ошибка!"
+
+msgid "at"
+msgstr "в"
+
+msgid "About"
+msgstr "О программе"
+
+msgid "All"
+msgstr "Все"
+
+msgid "Any parameters should be selected before the culculating."
+msgstr "Данные для расчета стоимости комплектации не выбраны."
+
+msgid "Attention"
+msgstr "ВНИМАНИЕ!"
+
+msgid "Are you really going to create an order?"
+msgstr "Вы действительно собираетесь создать новый заказ?"
+
+msgid "Are you really going to save changes of the order?"
+msgstr ""
+"Вы действительно собираетесь сохранить комплектацию изделия в Журнале "
+"расчетов?"
+
+msgid "Automatically update the calculations"
+msgstr "Автоматически обновлять изменения комплектации"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Base article"
+msgstr "Базовый артикул изделия"
+
+msgid "Business Company"
+msgstr "Коммерческое предприятие"
+
+msgid "Calculate"
+msgstr "Рассчитать"
+
+msgid "Calculator"
+msgstr "Калькулятор"
+
+msgid "Calculate the cost"
+msgstr "Расчитать стоимость комплектации"
+
+msgid "Calculation is not performed."
+msgstr "Расчет стоимости конструкции не выполнен."
+
+msgid "Cancel"
+msgstr "Отменить"
+
+msgid "Cancel search"
+msgstr "Отменить поиск"
+
+msgid "Caption"
+msgstr "Заголовок"
+
+msgid "Complete name"
+msgstr "Наименование комплектации"
+
+msgid "Confirm"
+msgstr "Подтвердить"
+
+msgid "Confirm notification form"
+msgstr "ВНИМАНИЕ!"
+
+msgid "Check the data to calculate the cost of completing:"
+msgstr "Проверьте данные для расчёта стоимости комплектации:"
+
+msgid "Client"
+msgstr "Контрагент"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Close page"
+msgstr "Закрыть страницу"
+
+msgid "Code"
+msgstr "Код"
+
+msgid "Commands"
+msgstr "Команды управления расчётом конфигуратора"
+
+msgid "Collapse"
+msgstr "Свернуть"
+
+msgid "Collapse form groups"
+msgstr "Свернуть группы полей"
+
+msgid "Cost notification form"
+msgstr "Информация о стоимости комплектации"
+
+msgid "Count"
+msgstr "Количество"
+
+msgid "Country"
+msgstr "Страна"
+
+msgid "Custom Calculation"
+msgstr "Калькуляция"
+
+msgid "Custom"
+msgstr "Калькуляция"
+
+msgid "Custom code"
+msgstr "Код комплектации"
+
+msgid "Custom Order"
+msgstr "Заказ"
+
+msgid "Data not found!"
+msgstr ""
+"Данные не найдены.<br>Измените поисковый контекст или значения параметров "
+"запроса."
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Decline"
+msgstr "Отказаться"
+
+msgid "Done"
+msgstr "Заказ"
+
+msgid ""
+msgstr "ГК \"\""
+
+msgid "Go back"
+msgstr "Вернуться в конфигуратор"
+
+msgid "error"
+msgstr "ошибка"
+
+msgid "Error: translation service not configured."
+msgstr ""
+
+msgid "Error: translation service not available."
+msgstr ""
+
+msgid "Error information"
+msgstr "Информация об ошибке"
+
+msgid "Error: Unexpected error."
+msgstr "Ошибка!"
+
+msgid "Execution error"
+msgstr "Ошибка исполнения"
+
+msgid "Expand"
+msgstr "Развернуть"
+
+msgid "File Not Found"
+msgstr "Файл не найден"
+
+msgid "Find"
+msgstr "Найти"
+
+msgid "Forward"
+msgstr "Вперёд"
+
+msgid "Full screen"
+msgstr "Полный экран"
+
+msgid "Help"
+msgstr "Помощь"
+
+msgid "Help information"
+msgstr "Справка"
+
+msgid "Helper keypress guide"
+msgstr "Использование клавиатуры"
+
+msgid "Helper Configurator Main Page"
+msgstr "Главная страница конфигуратора"
+
+msgid "Helper Configurator Order Log Page"
+msgstr "Журнал комплектаций конфигуратора"
+
+msgid "Expand form groups"
+msgstr "Развернуть группы полей"
+
+msgid "Forward search"
+msgstr "Поиск вперёд"
+
+msgid "Icon Toolbar"
+msgstr "Панель пиктограмм"
+
+msgid "Information"
+msgstr "Информация"
+
+msgid "Load"
+msgstr "Загрузить"
+
+msgid "Load selected order"
+msgstr "Загрузить выбранную комплектацию в конфигуратор"
+
+msgid "Make an order"
+msgstr "Заказать комплектацию"
+
+msgid "Monitor price changes"
+msgstr "Отслеживать ценовую динамику"
+
+msgid "Moscow"
+msgstr "Москва"
+
+msgid "not calculated"
+msgstr "не рассчитана"
+
+msgid "n/a"
+msgstr "не рассчитана"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "No connection!"
+msgstr "Соединение с сервером не установлено!"
+
+msgid "No data..."
+msgstr "Нет данных..."
+
+msgid "Not valid response!"
+msgstr "Некорректный ответ сервера!"
+
+msgid "Number"
+msgstr "Порядковый номер"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Open Calculate form"
+msgstr "Открыть форму контроля параметров"
+
+msgid "Open Order form"
+msgstr "Открыть форму подтверждения заказа"
+
+msgid "Open Log page"
+msgstr "Открыть Журнал комплектаций"
+
+msgid "Open Price statistics"
+msgstr "Открыть ценовую статистику"
+
+msgid "Open Save form"
+msgstr "Открыть форму сохранения заказа"
+
+msgid "Open Search panel"
+msgstr "Открыть панель поиска элементов конструкции"
+
+msgid "Options"
+msgstr "Опции"
+
+msgid "Order"
+msgstr "Заказать"
+
+msgid "Order confirmation form"
+msgstr "Форма подтверждения заказа"
+
+msgid "Order date"
+msgstr "Дата расчета"
+
+msgid "Order document"
+msgstr "Номер заказа"
+
+msgid "Order log"
+msgstr "Журнал комплектаций"
+
+msgid "Order notification form"
+msgstr "Информация о заказе"
+
+msgid "Order parameters control form"
+msgstr "Контроль параметров заказа"
+
+msgid "Order type"
+msgstr "Тип"
+
+msgid "Parameters"
+msgstr "Параметры"
+
+msgid "Please, confirm"
+msgstr "Пожалуйста, подтвердите"
+
+msgid "Please, try more."
+msgstr "Пожалуйста, попробуйте еще раз."
+
+msgid "Please, wait the system response."
+msgstr "Пожалуйста, ждите ответа..."
+
+msgid "Price"
+msgstr "Сумма"
+
+msgid "Price article"
+msgstr "Ценоопределяющий артикул"
+
+msgid "Price information"
+msgstr "Расчетная стоимость комплектации"
+
+msgid "Price statistics"
+msgstr "Ценовая динамика"
+
+msgid "Product Version"
+msgstr "Версия"
+
+msgid "Products"
+msgstr "Продукты"
+
+msgid "Reference documents"
+msgstr "Справочная документация"
+
+msgid "Rating"
+msgstr "Рейтинг"
+
+msgid "Region"
+msgstr "Представительство"
+
+msgid "Reject"
+msgstr "Отказаться"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "RT"
+msgstr "РТ"
+
+msgid "Russia"
+msgstr "Российская Федерация"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Save confirmation form"
+msgstr "Форма сохранения комплектации"
+
+msgid "Save notification form"
+msgstr "Информация о заказе"
+
+msgid "Search"
+msgstr "Найти"
+
+msgid "Search context"
+msgstr "Поисковый контекст"
+
+msgid "Search Icon buttons"
+msgstr "Кнопки управления поиском"
+
+msgid "Session is expired notification"
+msgstr "Вы отключены от сервера по причине истечения периода неактивности."
+
+msgid "Sorry, the confirmation code is invalid."
+msgstr "К сожалению, код подтверждения введен неправильный."
+
+msgid "Sorry, you are not authorized."
+msgstr "К сожалению, Вы не авторизованы."
+
+msgid "Sort by"
+msgstr "Сортировка"
+
+msgid "Standard"
+msgstr "Стандарт"
+
+msgid "Standard Calculation"
+msgstr "Стандарт"
+
+msgid "Statistics"
+msgstr "Ценовая динамика"
+
+msgid "Successfully created."
+msgstr ""
+"Ваш заказ направлен для прохождения процедуры подтверждения в дилерский "
+"отдел ГК «»."
+
+msgid "Successfully saved."
+msgstr "Изменения сохранены."
+
+msgid "System information"
+msgstr "Информация о программе"
+
+msgid "System is not available now."
+msgstr ""
+"Система калькуляции стоимости изделий ГК «» в настоящий момент "
+"недоступна."
+
+msgid "You will be redirected to the passage of the authorization procedure."
+msgstr ""
+"Вы будете перенаправлены на главную страницу сайта для прохождения процедуры "
+"авторизации."
+
+msgid "We apologize for any inconvenience."
+msgstr "Приносим извинения за доставленные неудобства."
+
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr ""
+
+msgid "The cost"
+msgstr "Сумма"
+
+msgid "The cost is estimated."
+msgstr ""
+"Будьте внимательны! Расчётная стоимость комплектации является "
+"ориентировочной."
+
+msgid "The dynamics of the cost of equipment"
+msgstr "Статистика стоимости комплектации"
+
+msgid "Total"
+msgstr "Всего"
+
+msgid "Total in Order log"
+msgstr "Всего в Журнале комплектаций"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Type of order"
+msgstr "Тип комплектации"
+
+msgid "The order was not created by the error."
+msgstr "Заказ не создан. Ошибка."
+
+msgid "The order was not saved by the error."
+msgstr "Заказ не сохранен. Ошибка."
+
+msgid "Type the following operation result:"
+msgstr "Введите результат арифметической операции:"
+
+msgid "unauthorized client"
+msgstr "Пользователь не авторизован"
+
+msgid "undefined"
+msgstr "неопределено"
+
+msgid "Undefined client name"
+msgstr "Наименование контрагента не установлено"
+
+msgid "Yes"
+msgstr "Да"
+

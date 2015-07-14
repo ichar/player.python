@@ -1,0 +1,62 @@
+{% macro template(name, default, extra) -%}
+
+{%- if name=='log' -%}
+
+  {%- if default -%}
+
+    {%- if extra %}
+  <div id="log-headers">
+    <table cellspacing="0" border="0"><tr>
+  {% for x in extra.log_headers %}
+    {%- if x.name -%}
+      <td id="column_{{ x.id }}" class="header" title="{{ x.title }}">{{ x.name }}</td>
+    {%- endif -%}
+  {%- endfor %}
+      <td class="header">
+  {%- if extra.images -%}
+      <div class="icon"><img id="{{ extra.images.sort.id }}" src="{{ extra.images.sort.src }}" alt="{{ extra.images.sort.alt }}" title="{{ extra.images.sort.title }}"></div>
+  {%- endif -%}
+      </td>
+    </tr></table>
+  </div>
+  <div id="log-content" style="display:none"></div>
+  <div id="log-pagination" style="display:none"></div>
+    {%- endif %}
+
+  {%- else -%}
+
+    {%- if extra %}
+  <div id="log-headers">
+    <dl>
+  {% for x in extra.log_headers %}
+    {%- if x.name -%}
+      <dd id="column:{{ x.id }}" class="header" title="{{ x.title }}">{{ x.name }}</dd>
+    {%- endif -%}
+  {%- endfor %}
+    </dl>
+  {%- if extra.images -%}
+    <div class="icon"><img id="{{ extra.images.sort.id }}" src="{{ extra.images.sort.src }}" alt="{{ extra.images.sort.alt }}" title="{{ extra.images.sort.title }}"></div>
+  {%- endif -%}
+  </div>
+  <div id="log-content" style="display:none"></div>
+  <div id="log-pagination" style="display:none"></div>
+    {%- endif %}
+
+  {%- endif -%}
+
+{%- elif name=='statistics' %}
+
+  <div id="statistics-headers">
+    <table cellspacing="0" border="0"><tr>
+  {% for x in extra.statistics_headers %}
+    {%- if x.name -%}
+      <td id="column_{{ x.id }}" class="header" title="{{ x.title }}">{{ x.name }}</td>
+    {%- endif -%}
+  {%- endfor %}
+    </tr></table>
+  </div>
+  <div id="statistics-content"></div>
+
+{%- endif -%}
+
+{%- endmacro %}

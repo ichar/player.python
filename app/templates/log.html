@@ -1,0 +1,100 @@
+{% if browser=='ie' %}{% extends "base.ie.html" %}{% else %}{% extends "base.html" %}{% endif %}
+
+{% import 'forms.html' as Forms %}
+{% import 'templates.html' as Templates %}
+
+{% block styles %}
+
+{%- if style.default %}
+<link href="{{ url_for('.static', filename='css/style') }}.log.default.css" rel="stylesheet" type="text/css">
+{%- else %}
+<link href="{{ url_for('.static', filename='css/style') }}.log.flex.css" rel="stylesheet" type="text/css">
+{%- endif %}
+
+{% endblock %}
+
+{% block scripts %}{{ page.scripts()|safe }}{% endblock %}
+
+{% block header %}{% include 'default-header.html' %}{% endblock %}
+
+{% block starter %}
+
+<script type="text/javascript">
+<!--
+// Local definitions
+// -----------------
+var log_columns = "{{ extra.log_headers|join('|', attribute='id') }}".split('|');
+var statistics_columns = "{{ extra.statistics_headers|join('|', attribute='id') }}".split('|');
+//-->
+</script> 
+
+<script src="{{ url_for('.static', filename='js/db.controller.min.js') }}"></script>
+{%- if style.default %}
+<script src="{{ url_for('.static', filename='js/log.default.min.js') }}"></script>
+{%- else %}
+<script src="{{ url_for('.static', filename='js/log.flex.min.js') }}"></script>
+{%- endif %}
+<script src="{{ url_for('.static', filename='js/log.min.js') }}"></script>
+
+{% endblock %}
+
+{% block data_section_content %}
+
+{% include 'flash.html' %}
+
+<div id="log-container">
+
+{{ Templates.template('log', style.default, extra) }}
+
+</div>
+
+{% endblock %}
+
+{% block info_section_content %}
+
+<div id="data-container">
+  <div class="data-menu block">
+    <div id="data-menu-parameters">{{ _('Parameters') }}</div>
+    <div id="data-menu-products">{{ _('Products') }}</div>
+  </div>
+{% if forms and 'search' in forms %}
+
+{{ Forms.form('search') }}
+
+{% endif %}
+  <div class="data">
+    <div id="data-content">
+      <div id="parameters-content"></div>
+      <div id="products-content"></div>
+    </div>
+    <div id="data-panel">
+      <button class="btn" id="load"><span class="">{{ _('Load') }}</span></button>
+      <button class="btn" id="statistics"><span class="">{{ _('Statistics') }}</span></button>
+      <button class="btn" id="remove"><span class="">{{ _('Remove') }}</span></button>
+    </div>
+    <div id="data-forms">
+{% if forms and 'load' in forms %}
+
+{{ Forms.form('load') }}
+
+{% endif %}
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block footer %}{% include 'default-footer.html' %}{% endblock %}
+
+{% block windows %}
+
+<div id="statistics-container" title="{{ _('Price statistics') }}" style="display:none;">
+  <h3 id="statistics-notification">{{ _('The dynamics of the cost of equipment') }}:</h3>
+  <div id="statistics-box">
+
+{{ Templates.template('statistics', style.default, extra) }}
+
+  </div>
+</div>
+
+{% endblock %}

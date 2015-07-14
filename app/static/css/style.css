@@ -1,0 +1,101 @@
+body { width:1040px; margin:5px auto; font-family:Arial; line-height:12px; }
+html { overflow-y:hidden; }
+
+section { margin:5px 0 5px 0; }
+
+.full-screen-header-container { height:0px; display:none; }
+.full-screen-footer-container { height:0px; display:none; }
+.full-screen-info-section { border-bottom:1px solid #d6d6d6; }
+
+header#page-header { 
+  width:100%; 
+  float:left;
+}
+
+label { cursor:default; }
+
+.ui-dialog {
+  -webkit-box-shadow: 0px 0px 30px #14314F;
+  box-shadow: 0px 0px 30px #14314F;
+}
+.ui-dialog-buttonpane { text-align:center !important; }
+.ui-dialog-buttonset { font:normal 11px Arial !important; float:none; }
+.ui-widget { font:normal 12px Arial; }
+.ui-widget-header { font:bold 13px Tahoma; }
+
+.btn { padding:4px 16px 4px 16px; }
+
+.attr { padding:5px !important; font-family:Tahoma; color:#777777; }
+.attr span { white-space:nowrap; padding:3px 0 3px 0; }
+
+#header-top td { border-bottom:1px solid #e7e7e7; }
+#header-top td.attr { border-left:1px solid #e7e7e7; }
+/*#title-box { padding:10px; line-height:16px; height:27px !important; }*/
+#price-box { padding:5px; min-width:100px !important; }
+#title { padding:0; margin:0; font-size:140%; font-weight:bold; color:#323232; font-family:Arial; }
+#client { height:24px; overflow-x:hidden; overflow-y:scroll; min-width:120px; padding-right:5px; }
+
+#header-bottom table { width:100%; }
+#header-bottom div { display:inline; }
+#header-bottom td { border:0px solid #888888; }
+#header-bottom td.toolbar-item { border-left:0px solid #e7e7e7; padding:0; margin:0; }
+#toolbar { margin:3px 0 0 3px; float:left; vertical-align:middle; white-space:nowrap; }
+
+#full-screen-title { font:bold 14px Arial; padding-left:10px; padding-right:10px; white-space:nowrap; }
+#full-screen-loader {}
+#full-screen-price-box {}
+
+#menu { padding:0 20px 0 20px; margin:3px 0 3px 0px; }
+#menu button { font-size:12px; }
+
+.na { font-weight:bold; color:#ff0000; font-size:11px; }
+.success { font-weight:bold; color:#427882; font-size:11px; }
+
+#data-section { float:left; width:548px; border:1px solid #d6d6d6; }
+#info-section { float:right; width:484px; margin:0px 0px auto; padding-right:5px; vertical-align:middle; border-right:1px solid #d6d6d6; }
+#info-section div, #info-section p { margin:0; }
+
+#prompting-area { border-right:0px solid #e7e7e7; vertical-align:middle; }
+#prompting { height:52px; overflow-y:auto; font:normal 11px Arial; padding:5px 5px 5px 10px; color:#aaaaaa; text-indent:10px; text-align:justify; font-style:italic; }
+
+#image-area { overflow-x:hidden; overflow-y:auto; }
+#default-image { position:relative; }
+
+#illustration-area { float:right; vertical-align:bottom; margin:0 20px 20px 0; }
+
+.toolbar-icon { cursor:pointer; }
+.extra-image { display:inline-block; }
+.extra-relative-image { position:relative; margin-top:5px; }
+.extra-absolute-image { position:relative; z-index:100; display:none; }
+
+.pageClass { font-size:10px; overflow-x:hidden; overflow-y:auto; background-color:#F8F8FC; }
+
+.aligned table.pageContainer { padding:0 5px 0 5px; }
+.aligned .pageContainer td { padding:3px 10px 3px 10px; border:1px solid #ffffff; }
+.aligned td.groupTitle { padding:0 !important; }
+.aligned td.fieldTitle { text-align:right; max-width:45%; vertical-align:middle; font:normal 11px Arial; }
+.aligned td.fieldValue { vertical-align:middle; }
+.aligned label { margin:0; border:0px solid #000000; font:normal 11px Arial;  }
+.aligned select { line-height:24px; }
+.aligned select.combobox {}
+.aligned select.popup {}
+.aligned input.checkbox { margin-top:2px !important; }
+.aligned input.radio { margin-top:3px !important; }
+
+.fieldTitle label { margin-top:3px; font-style:italic; }
+.subtitle { font:normal 11px Arial; padding-top:3px; }
+.subvalue { font:normal 12px Arial; padding-top:2px; }
+.field { font:normal 11px Arial; }
+.popup { font:normal 13px Tahoma; margin-bottom:0; }
+.combobox { font:normal 13px Tahoma; margin-bottom:0; }
+.number, .string { padding:0; margin:0 !important; }
+.input-area { font-size:11px; height:48px; margin:0; width:80%; }
+.checkbox div { padding:6px 3px; margin-left:20px; }
+.radio div { padding:6px 3px; margin-left:20px; }
+
+.label-checkbox { height:20px; vertical-align:top; padding-top:5px; }
+.label-number { padding-top:3px; }
+.label-radio { height:20px; vertical-align:top; padding-top:5px; }
+
+.disabled { color:#cccccc !important; cursor:not-allowed !important; }
+.displayed { display:none !important; }

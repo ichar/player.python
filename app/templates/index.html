@@ -1,0 +1,114 @@
+{% if browser=='ie' %}{% extends "base.ie.html" %}{% else %}{% extends "base.html" %}{% endif %}
+
+{% block styles %}{% endblock %}
+
+{% block scripts %}{{ page.scripts()|safe }}{% endblock %}
+
+{% block header %}{% include 'default-header.html' %}{% endblock %}
+
+{% block starter %}
+
+<script src="{{ url_for('.static', filename='js/page.controller.min.js') }}"></script>
+<script src="{{ url_for('.static', filename='js/index.min.js') }}"></script>
+
+<script type="text/javascript">
+<!--
+// Local definitions
+// -----------------
+selected_item = {{ extra.get('selected_item') }};
+//-->
+</script> 
+
+{% endblock %}
+
+{% block data_section_content %}
+
+{% include 'flash.html' %}
+
+{% if page %}
+    {# page.html()|safe #}
+
+<table class="pageContainer" cellspacing="0" border="0">
+{% for group in page -%}
+<tr>
+    <td class="groupTitle" id="{{group.html_id}}" colspan="2">
+        <div class="groupHeader">{{ group.html('caption')|safe }}</div>
+{%- for constant in group.constants %}{{ constant.html('hidden')|safe }}{%- endfor %}
+    </td>
+</tr>
+    {%- for field in group -%}
+<tr id="row:{{group.html_id}}_{{loop.index}}">
+        {%- if field.has_title() -%}
+    <td class="fieldTitle">{{ field.html('title')|safe }}</td>
+    <td class="fieldValue">{{ field.html('content')|safe }}</td>
+        {%- else -%}
+    <td class="fieldValue" colspan="2">{{ field.html('content')|safe }}</td>
+        {%- endif -%}
+</tr>
+    {%- endfor -%}
+{%- endfor %}
+</table>
+
+{% endif %}
+
+{% endblock %}
+
+{% block info_section_content %}
+
+  <header id="prompting-area">
+    <p id="prompting"></p>
+  </header>
+  <div id="image-area">
+    {% if image %}<img id="default-image" src="{{ root }}{{ image|safe }}" alt="">{% endif %}
+    <div id="illustration-area" style="display:none;">
+      <img id="illustration" src="" alt="">
+    </div>
+  </div>
+
+{% endblock %}
+
+{% block footer %}{% include 'default-footer.html' %}{% endblock %}
+
+{% block windows %}
+
+<div id="search-container" style="display:none;">
+  <span>{{ _('Find') }}:</span>
+  <input id="search-text" type="text">
+  <button class="btn" id="search-back"><img title="{{ _('Back') }}" src="{{ root }}static/images/back.png" alt="back"></button>
+  <button class="btn" id="search-forward"><img title="{{ _('Forward') }}" src="{{ root }}static/images/forward.png" alt="forward"></button>
+  <button class="btn" id="search-close"><img title="{{ _('Close') }}" src="{{ root }}static/images/close.png" alt="close"></button>
+</div>
+
+<div id="helper-confirm-container" title="{{ _('Confirm notification form') }}" style="display:none;">
+  <h3 id="helper-confirm-notification">{{ _('Please, confirm') }}:</h3>
+  <div id="helper-confirm-info"></div>
+</div>
+
+{% endblock %}
+
+{% block exchange_content %}
+
+{%- if internal -%}
+
+<script src="{{ url_for('.static', filename='js/exchange.min.js') }}"></script>
+
+<div id="exchangeDIV" style="display:none;">
+  <form>
+    <input id="exchangeArea" type="textarea" value="Empty" />
+  </form>
+</div>
+
+<script type="text/javascript">
+<!--
+// Init for 'Internal' mode
+// ------------------------
+$(document).ready(function() 
+{
+    $_exchange_init();
+});
+//-->
+</script> 
+
+{%- endif -%}
+
+{% endblock %}

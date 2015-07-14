@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="pragma" content="no-cache">
+  {% if title %}
+<title>{{ title }}</title>
+  {% else %}
+<title>{{ _('Helper Configurator Main Page') }}</title>
+  {% endif %}
+<link href="{{ url_for('.static', filename='css/bootstrap.ie.css') }}" rel="stylesheet" media="screen">
+<link href="{{ url_for('.static', filename='css/bootstrap-responsive.min.css') }}" rel="stylesheet">
+<link href="{{ url_for('.static', filename='css/jquery-ui.custom.css') }}" rel="stylesheet">
+<link href="{{ url_for('.static', filename='css/style.ie') }}{{ version }}.css" rel="stylesheet" type="text/css">
+<link href="{{ url_for('.static', filename='css/style') }}.common.css" rel="stylesheet" type="text/css">
+<link href="{{ url_for('.static', filename='css/style') }}.locale.{{ locale }}.css" rel="stylesheet" type="text/css">
+<!--[if gt IE 8]><link href="{{ url_for('.static', filename='css/style') }}.skins.css" rel="stylesheet" type="text/css"><![endif]-->
+{% block styles %}{% endblock %}
+<script type="text/javascript">
+<!--
+var os = '{{ os }}';
+var isAndroid = false;
+//-->
+</script> 
+<!--[if lt IE 9]><script src="static/js/html5.js"></script><![endif]-->
+<!--[if lt IE 8]><script src="static/js/ie.js"></script><![endif]-->
+<script src="{{ url_for('.static', filename='js/jquery.min.js') }}"></script>
+<script src="{{ url_for('.static', filename='js/jquery-ui.custom.min.js') }}"></script>
+<script src="{{ url_for('.static', filename='js/verge.min.js') }}"></script>
+<script src="{{ url_for('.static', filename='js/core.min.js') }}"></script>
+<script src="{{ url_for('.static', filename='js/calculator.min.js') }}"></script>
+<script src="{{ url_for('.static', filename='js/common.min.js') }}"></script>
+  {%- if uri.root %}
+<script src="{{ root }}{{ uri.root }}functions.min.js"></script>
+  {%- endif %}
+{% block scripts %}{% endblock %}
+  {%- if uri.module %}
+<script src="{{ root }}{{ uri.module }}script.min.js"></script>
+  {%- endif %}
+{% block starter %}{% endblock %}
+<meta name="viewport" content="width=device-width">
+<link rel="shortcut icon" href="{{ root }}static/img/favicon.ico">
+</head>
+<body>
+
+<div id="page-container">
+<table class="container" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr><td colspan="2">
+
+{% block header %}{% endblock %}
+
+</td></tr><tr><td id="data-container">
+<section class="pageClass aligned" id="data-section" style="display:none">
+    {% block data_section_content %}{% endblock %}
+</section>
+</td><td id="info-container">
+<section id="info-section" style="display:none">
+    {% block info_section_content %}{% endblock %}
+</section> 
+</td></tr><tr><td colspan="2">
+
+{% block footer %}{% endblock %}
+
+</td></tr></table>
+</div>
+
+{% block windows %}{% endblock %}
+
+{% block exchange_content %}{% endblock %}
+
+<script type="text/javascript">
+<!--
+// Core definitions
+// ----------------
+$SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+$IS_FRAME = {{ is_frame }};
+$IS_DEMO = {{ is_demo }};
+
+helperCommunicationType = '{{ exchange.communication }}';
+helperHttpReferer = '{{ referer|safe }}';
+helperXMLVersion = '{{ page.config.xml_version }}';
+
+host = '{{ host|safe }}';
+baseURI = '{{ root }}{{ base }}';
+closeURI = '{{ links.close|safe }}';
+loaderURI = '{{ loader|safe }}';
+currentImageURI = '{{ root }}{{ image|safe }}';
+currentLocale = '{{ locale }}';
+wizardName = '{{ name|safe }}';
+keywords = { {{ keywords|join(', ')|safe }} };
+platform = '{{ platform }}';
+
+current_screen = '{{ screen }}';
+current_scale = [{{ scale }}];
+
+userID = '{{ exchange.userID }}';
+userTypeID = '{{ exchange.userTypeID }}';
+documentID = '{{ exchange.documentID }}';
+countryID = '{{ exchange.countryID }}';
+regionID = '{{ exchange.regionID }}';
+priceTypeID = '{{ exchange.priceTypeID }}';
+sessionID = '{{ exchange.sessionID }}';
+//-->
+</script> 
+
+</body>
+</html>

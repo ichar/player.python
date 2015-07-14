@@ -1,0 +1,25 @@
+{% if browser=='ie' %}{% extends "base.ie.html" %}{% else %}{% extends "base.html" %}{% endif %}
+
+{% block scripts %}{% endblock %}
+
+{% block header %}{% include 'default-header.html' %}{% endblock %}
+
+{% block starter %}
+
+<script src="{{ url_for('.static', filename='js/main.js') }}"></script>
+
+{% endblock %}
+
+{% block data_section_content %}
+
+{% include 'flash.html' %}
+
+{% endblock %}
+
+{% block info_section_content %}{% endblock %}
+
+{% block footer %}{% include 'default-footer.html' %}{% endblock %}
+
+{% block windows %}{% endblock %}
+
+{% block exchange_content %}{% endblock %}

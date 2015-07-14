@@ -1,0 +1,21 @@
+<footer id="page-footer">
+  <div id="footer-container" style="display:none;">
+    <table class="footer-form" cellspacing="0" border="0">
+    <tr>
+      <td id="messages-box"><div id="messages-area">&nbsp;</div></td>
+      <td id="repository-box">
+        <div id="repository">
+          <img class="headline" src="{{ root }}{{ base }}/images/infoImg.png" alt=""><h3>{{ _('Reference documents') }}</h3>
+          <ul>
+          {% for item in page.get_repository() -%}
+            <li>
+              <img src="{{ root }}{{ base }}/images/{{ item.image }}" alt="">
+              <a href="{{ root }}{{ base }}/{{ item.location }}" target="blank">{{ item.description|safe }}</a></li>
+          {%- endfor %}
+          </ul>
+        </div>
+      </td>
+    </tr>
+    </table>
+  </div>
+</footer>

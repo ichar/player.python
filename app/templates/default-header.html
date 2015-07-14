@@ -1,0 +1,64 @@
+{% import 'forms.html' as Forms %}
+
+<header id="page-header">
+  <div id="header-container">
+    <table class="header-form" border="0">
+    <tr>
+      <td id="logo-box">
+        <img id="logo" src="{{ root }}static/images/logo.png" alt="">
+        <div class="displayed" id="loader"><img id="signal" src="{{ root }}static/img/s1.png" alt=""></div>
+      </td>
+      <td id="header-box">
+        <table id="header-top" border="0">
+        <tr>
+          <td id="title-box"><div id="title" class="displayed">{{ name|safe }}</div></td>
+          <td id="price-box" class="attr"><b>{{ _('Price') }}</b><br><span id="order-price" class="current_price na">{{ price }}</span></td>
+          <td id="region-box" class="attr"><b>{{ _('Region') }}</b><br><span id="region">{{ exchange.regionName }}</span></td>
+          <td id="country-box" class="attr"><b>{{ _('Country') }}</b><br><span id="country">{{ exchange.countryName }}</span></td>
+          <td id="client-box" class="attr"><span id="client-caption" class="high">{{ _('Client') }}</span><div id="client">{{ exchange.clientName }}</div></td>
+        </tr>
+        </table>
+        <table id="header-bottom" border="0">
+        <tr>
+          <td id="toolbar-icons">
+            <div id="toolbar">
+
+{% if forms and 'index' in forms %}
+
+              <img class="toolbar-icon" id="collapse" src="{{ root }}static/images/collapse.png" title="{{ _('Collapse') }}" alt="">
+              <img class="toolbar-icon" id="expand" src="{{ root }}static/images/expand.png" title="{{ _('Expand') }}" alt="">
+              <img class="toolbar-icon" id="search" src="{{ root }}static/images/search.png" title="{{ _('Search') }}" alt="">
+
+{% endif %}
+
+              <img class="toolbar-icon" id="screen" src="{{ root }}static/images/screen.png" title="{{ _('Full screen') }}" alt="">
+              <img class="toolbar-icon" id="info" src="{{ root }}static/images/info-system.png" title="{{ _('About') }}" alt="">
+            </div>
+          </td>
+          <td class="toolbar-item displayed" id="toolbar-title">
+            <div class="displayed" id="full-screen-title">{{ article|safe }}</div>
+          </td>
+          <td class="toolbar-item displayed" id="toolbar-loader">
+            <img class="displayed" id="full-screen-loader" src="{{ root }}static/img/loading.gif" alt="">
+          </td>
+          <td class="toolbar-item displayed" id="toolbar-price-box">
+            <div class="displayed" id="full-screen-price-box"><b>{{ _('Price') }}:</b>&nbsp;<span class="current_price na">{{ price }}</span></div>
+          </td>
+
+{% if forms and 'log' in forms %}{{ Forms.form('log', extra) }}{% endif %}
+
+          <td id="toolbar-menu">
+            <div id="menu">
+              <button class="btn btn-success" id="calculate" data-href="{{ links.calculate }}">{{ _('Calculate') }}</button>
+              <button class="btn btn-warning {% if not authorized or not external %}disabled{% endif %}" id="order" {% if (external and not authorized) %}disabled{% endif %}>{{ _('Order') }}</button>
+              <button class="btn btn-primary" id="save" {% if (external and not authorized) or (external and not document) %}disabled{% endif %}>{{ _('Save') }}</button>
+              <button class="btn btn-danger_" id="close">{{ _('Close') }}</button>
+            </div>
+          </td>
+        </tr>
+        </table>
+      </td>
+    </tr>
+    </table>
+  </div>
+</header>

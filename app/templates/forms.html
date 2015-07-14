@@ -1,0 +1,39 @@
+{% macro form(name, extra) -%}
+
+{%- if name=='log' -%}
+
+<td class="toolbar-item" id="toolbar-log-box" align="right">
+  <div id="total-log-rows"><span class="title">{{ _('Total in Order log') }}:</span><span class="count" id="total_log_rows">0</span></div>
+</td>
+<td class="toolbar-item" id="toolbar-log-icon">
+  <img class="toolbar-icon" id="log-icon" src="{{ root }}static/images/order-log-3.png" title="{{ _('Order log') }}" alt="">
+
+  <div id="log-form-container">
+
+  <form action="log" id="log-form" method="POST" onSubmit="return $onSubmitForm(this);">
+    <div id="log-form-items"></div>
+  </form>
+
+  </div>
+</td>
+
+{%- elif name=='load' -%}
+
+<form action="index" id="index-form" method="POST" onSubmit="return $onSubmitForm(this);">
+  <div id="index-form-items"></div>
+</form>
+
+{%- elif name=='search' -%}
+
+<div class="block" id="search-box">
+
+  <form action="" id="search-form" onSubmit="return false;">
+    <input class="string" id="search-context" type="text" value="">
+    <img id="search-icon" src="{{ root }}static/img/db-search.png" title="{{ _('Search') }}" alt="">
+  </form>
+
+</div>
+
+{%- endif -%}
+
+{%- endmacro %}

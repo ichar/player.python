@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<HTML lang=ru><HEAD><TITLE>Ваш браузер устарел!</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<link href="{{ url_for('.static', filename='css/browsers') }}.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>')</script>
+
+<SCRIPT>
+	jQuery(function($)
+	{
+		if (navigator.userAgent.indexOf('Win') == -1)
+		{
+			// No IE for this OS at all
+			$('li.ie8').hide().next().hide();
+			return;
+		}
+		var nt = navigator.userAgent.match(/Windows NT (\d+)/i);
+		if (!nt || parseInt(nt[1]) < 6)
+		{
+			// No new version of IE for this OS
+			$('li.ie8 h2').text('Новый Internet Explorer недоступен для вашей системы');
+			$('li.ie8 .descriptiontext a').text('Узнать подробнее об Internet Explorer');
+			$('li.ie8 .descriptiontext span').html('К сожалению, для вашей операционной системы новая версия Internet Explorer недоступна. Для установки Internet Explorer 9 и выше у вас должна быть установлена Windows 7 и выше. Вам следует обновить ОС или воспользоваться другим браузером. Но если вы не хотите этого делать, вы можете установить плагин <a href="http://www.google.com/chromeframe">Google Chrome Frame</a> — в таком случае сайт сможет работать корректно и в старых версиях Internet Explorer.');
+		}
+	});
+	</SCRIPT>
+
+<META content="MSHTML 6.00.6001.18000" name=GENERATOR></HEAD>
+<BODY>
+<DIV id=old>
+<DIV id=header>
+<H1>Ваш браузер устарел!</H1><FONT size=+0>Вы пользуетесь устаревшей версией 
+браузера. Данная версия браузера не поддерживает многие современные технологии, 
+из-за чего многие страницы отображаются некорректно, а главное — на сайтах могут 
+работать не все функции. В связи с этим на Ваш суд представляются более 
+современные браузеры. Все они бесплатны, легко устанавливаются и просты в 
+использовании. При переходе на любой нижеуказанный браузер все ваши закладки и 
+пароли будут перенесены из текущего браузера, вы ничего не потеряете.</FONT> 
+</DIV>
+<UL id=modern-browser>
+  <LI class=firefox>
+  <H2>Mozilla Firefox</H2>
+  <DIV class=descriptiontext>Один из самых распространенных и гибких браузеров. 
+  Браузер может быть настроен под себя на любой вкус при помощи огромного числа 
+  дополнений на все случаи жизни и тем оформления, которые вы найдете на 
+  официальном сайте дополнений. 
+  <UL class=file>
+    <LI style="PADDING-LEFT: 0px"><A 
+    href="http://www.mozilla.org/firefox/">Перейти к загрузке Mozilla 
+    Firefox</A> </LI></UL></DIV>
+  <HR class=delim>
+
+  <LI class=chrome>
+  <H2>Google Chrome</H2>
+  <DIV class=descriptiontext>Новый, но уже достаточно популярный браузер от 
+  гиганта поисковой индустрии, компании Google. Обладает очень простым и удобным 
+  интерфейсом. Если вам нужен просто браузер без специальных функций — для вас 
+  Google Chrome станет лучшим выбором. 
+  <UL class=file>
+    <LI style="PADDING-LEFT: 0px"><A 
+    href="http://www.google.com/chrome/">Перейти к загрузке Google Chrome</A> 
+    </LI></UL></DIV>
+  <HR class=delim>
+
+  <LI class=opera>
+  <H2>Opera</H2>
+  <DIV class=descriptiontext>Браузер Opera всегда позиционировался, как очень 
+  удобный и быстрый. Имеет внутренние утилиты для ускорения загрузки страниц, 
+  особенно актуально для пользователей с медленным интернетом. Хотя отлично 
+  подойдет и любым другим пользователям. 
+  <UL class=file>
+    <LI class=v9 style="PADDING-LEFT: 0px"><A 
+    href="http://www.opera.com/">Перейти к загрузке Opera</A> </LI></UL></DIV>
+  <HR class=delim>
+
+  <LI class=ie8>
+  <H2>Новый Internet Explorer</H2>
+  <DIV class=descriptiontext><SPAN>Современная версия браузера от компании 
+  Microsoft. Бесплатно предоставляется всем желающим и свободен для 
+  распространения. Если слова «браузер» и «Internet Explorer» для вас незнакомы, 
+  установите эту программу.</SPAN> 
+  <UL class=file>
+    <LI class=microsoft style="PADDING-LEFT: 0px"><A 
+    href="http://www.microsoft.com/rus/windows/internet-explorer/">Перейти к 
+    загрузке Internet Explorer</A> </LI></UL></DIV>
+  <HR class=delim>
+  </LI></UL></DIV></BODY></HTML>

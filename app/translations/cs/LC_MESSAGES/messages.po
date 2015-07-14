@@ -1,0 +1,436 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-06-18 21:49+0400\n"
+"PO-Revision-Date: 2015-07-05 23:13+0300\n"
+"Last-Translator: ichar@g2.ru\n"
+"Language-Team: cs <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+"X-Generator: Poedit 1.5.5\n"
+
+msgid "#"
+msgstr "№"
+
+msgid "An unexpected error has occurred"
+msgstr "Došlo k neočekávané chybě"
+
+msgid "at"
+msgstr "na"
+
+msgid "About"
+msgstr "O programu"
+
+msgid "All"
+msgstr "Vše"
+
+msgid "Any parameters should be selected before the culculating."
+msgstr "Veškeré parametry by měly být vybrány před culculating."
+
+msgid "Attention"
+msgstr "VAROVÁNÍ!"
+
+msgid "Are you really going to create an order? Please, confirm."
+msgstr "Jste opravdu vytvořit objednávku? Prosím, potvrďte."
+
+msgid "Automatically update the calculations"
+msgstr "Automatická aktualizace výpočtových změny"
+
+msgid "Back"
+msgstr "Před"
+
+msgid "Base article"
+msgstr "Základní článek produktu"
+
+msgid "Business Company"
+msgstr "Obchodní společnosti"
+
+msgid "Calculate"
+msgstr "Přepočítat"
+
+msgid "Calculator"
+msgstr "Kalkulačka"
+
+msgid "Calculate the cost"
+msgstr "Propočítat náklady"
+
+msgid "Calculation is not performed."
+msgstr "Výpočet se neprovádí."
+
+msgid "Cancel"
+msgstr "Zrušit"
+
+msgid "Cancel search"
+msgstr "Zrušit vyhledávání"
+
+msgid "Caption"
+msgstr "Titulek"
+
+msgid "Complete name"
+msgstr "Kompletní název"
+
+msgid "Confirm"
+msgstr "Potvrdit"
+
+msgid "Confirm notification form"
+msgstr "Potvrzení oznamovacího formuláře"
+
+msgid "Check the data to calculate the cost of completing:"
+msgstr "Zkontrolujte data pro výpočet nákladů na dokončení:"
+
+msgid "Client"
+msgstr "Dodavatel"
+
+msgid "Close"
+msgstr "Dokončit"
+
+msgid "Close page"
+msgstr "Close strana"
+
+msgid "Code"
+msgstr "Kód"
+
+msgid "Commands"
+msgstr "Příkazy kontroly výpočtu"
+
+msgid "Collapse"
+msgstr "Sklapnout"
+
+msgid "Collapse form groups"
+msgstr "Skupiny Collapse forma"
+
+msgid "Cost notification form"
+msgstr "Náklady formulář oznámení"
+
+msgid "Count"
+msgstr "Sčítání"
+
+msgid "Country"
+msgstr "Země"
+
+msgid "Custom Calculation"
+msgstr "Kalkulace"
+
+msgid "Custom"
+msgstr "Zvyk"
+
+msgid "Custom code"
+msgstr "Kalkulace Kód"
+
+msgid "Custom Order"
+msgstr "Objednat"
+
+msgid "Data not found!"
+msgstr "Dat nebyl nalezen. Zkontrolujte parametry požadavku."
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Decline"
+msgstr "Pokles"
+
+msgid "Done"
+msgstr "Order"
+
+msgid ""
+msgstr " Company"
+
+msgid "Go back"
+msgstr "Vrátit se"
+
+msgid "error"
+msgstr "chyba"
+
+msgid "Error: translation service not configured."
+msgstr "Chyba: překladatelské služby není nakonfigurován."
+
+msgid "Error: translation service not available."
+msgstr "Chyba: překladatelské služby nejsou k dispozici."
+
+msgid "Error information"
+msgstr "Informace o chybě"
+
+msgid "Error: Unexpected error."
+msgstr "Chyba: Došlo k neočekávané chybě."
+
+msgid "Execution error"
+msgstr "Chyba spuštění"
+
+msgid "Expand"
+msgstr "Rozšířit"
+
+msgid "File Not Found"
+msgstr "Soubor nebyl nalezen"
+
+msgid "Find"
+msgstr "Najít"
+
+msgid "Forward"
+msgstr "Vpřed"
+
+msgid "Full screen"
+msgstr "Celá obrazovka"
+
+msgid "Help"
+msgstr "Pomoc"
+
+msgid "Help information"
+msgstr "Pomoc informací"
+
+msgid "Helper keypress guide"
+msgstr "Helper stisknutí průvodce"
+
+msgid "Helper Configurator Main Page"
+msgstr "Pomocník Konfigurátor Hlavní Stránka"
+
+msgid "Helper Configurator Order Log Page"
+msgstr "Pomocník Konfigurátor Objednat Log Page"
+
+msgid "Expand form groups"
+msgstr "Rozbalte skupiny tvoří"
+
+msgid "Forward search"
+msgstr "Forward vyhledávání"
+
+msgid "Icon Toolbar"
+msgstr "Ikona Toolbar"
+
+msgid "Information"
+msgstr "Informace"
+
+msgid "Load"
+msgstr "Zatížení"
+
+msgid "Load selected order"
+msgstr "Load vybraného objednávka"
+
+msgid "Make an order"
+msgstr "Udělat objednávku"
+
+msgid "Monitor price changes"
+msgstr "Cenové změny monitor"
+
+msgid "Moscow"
+msgstr "Moskva"
+
+msgid "not calculated"
+msgstr "nevypočítává"
+
+msgid "n/a"
+msgstr "n/a"
+
+msgid "No"
+msgstr "Ne"
+
+msgid "No connection!"
+msgstr "Žádné spojení!"
+
+msgid "No data..."
+msgstr "Žádné údaje ..."
+
+msgid "Not valid response!"
+msgstr "Neplatí odpověď!"
+
+msgid "Number"
+msgstr "Pokoj"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Open Calculate form"
+msgstr "Otevřít Vypočítat formulář"
+
+msgid "Open Order form"
+msgstr "Otevřená Objednávkový formulář"
+
+msgid "Open Log page"
+msgstr "Otevřená strana Přihlas"
+
+msgid "Open Price statistics"
+msgstr "Otevřené statistika Cena"
+
+msgid "Open Save form"
+msgstr "Otevřít Save formulář"
+
+msgid "Open Search panel"
+msgstr "Otevřít panel Hledání"
+
+msgid "Options"
+msgstr "Možnosti"
+
+msgid "Order"
+msgstr "Objednat"
+
+msgid "Order confirmation form"
+msgstr "Potvrzení objednávky formulář"
+
+msgid "Order date"
+msgstr "Datum objednávky"
+
+msgid "Order document"
+msgstr "Objednat dokument"
+
+msgid "Order log"
+msgstr "Objednat log"
+
+msgid "Order notification form"
+msgstr "Objednat formulář pro oznámení"
+
+msgid "Order parameters control form"
+msgstr "Objednat parametry lze formulář"
+
+msgid "Order type"
+msgstr "Type"
+
+msgid "Parameters"
+msgstr "Parametry"
+
+msgid "Please, confirm"
+msgstr "Prosím potvrďte"
+
+msgid "Please, try more."
+msgstr "Prosím, zkuste další."
+
+msgid "Please, wait the system response."
+msgstr "Prosím, vyčkejte odpověď..."
+
+msgid "Price"
+msgstr "Suma"
+
+msgid "Price article"
+msgstr "Cena článek"
+
+msgid "Price information"
+msgstr "Cenové informace"
+
+msgid "Price statistics"
+msgstr "Cenová statistika"
+
+msgid "Product Version"
+msgstr "Verze Produkt"
+
+msgid "Products"
+msgstr "Produkty"
+
+msgid "Reference documents"
+msgstr "Informativní dokumentace"
+
+msgid "Rating"
+msgstr "Hodnocení"
+
+msgid "Region"
+msgstr "Regiony"
+
+msgid "Reject"
+msgstr "Odmítnout"
+
+msgid "Remove"
+msgstr "Odstranit"
+
+msgid "RT"
+msgstr ""
+
+msgid "Russia"
+msgstr "Rusko"
+
+msgid "Save"
+msgstr "Uložit"
+
+msgid "Save confirmation form"
+msgstr "Save potvrzení forma"
+
+msgid "Save notification form"
+msgstr "Save oznamovací formulář"
+
+msgid "Search"
+msgstr "Vyhledávání"
+
+msgid "Search context"
+msgstr "Hledat kontext"
+
+msgid "Search Icon buttons"
+msgstr "Tlačítka Ikona vyhledávání"
+
+msgid "Session is expired notification"
+msgstr "Jste odpojeni od serveru v důsledku uplynutí doby nečinnosti."
+
+msgid "Sort by"
+msgstr "Seřazeno podle"
+
+msgid "Standard"
+msgstr "Standard"
+
+msgid "Standard Calculation"
+msgstr "Standardní Výpočet"
+
+msgid "Statistics"
+msgstr "Statistika"
+
+msgid "Successfully created."
+msgstr ""
+"Your order is sent for confirmation procedure to the department of the "
+"dealership of GK Â«Â»."
+
+msgid "Successfully saved."
+msgstr "Úspěšně zachránil."
+
+msgid "System information"
+msgstr "Systémové informace"
+
+msgid "System is not available notification"
+msgstr ""
+"Produkt kalkulačního systému GK «» v současné době není k dispozici."
+"<br>Omlouváme se za způsobené nepříjemnosti."
+
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr "Správce byl oznámen. Omlouváme se za způsobené nepříjemnosti!"
+
+msgid "The сost"
+msgstr "Suma"
+
+msgid "The cost is estimated."
+msgstr ""
+"Estimated price without VAT. The final price will be sent in the order "
+"confirmation."
+
+msgid "The dynamics of the cost of equipment"
+msgstr "Dynamika nákladů na zařízení"
+
+msgid "Total"
+msgstr "Celkem"
+
+msgid "Total in Order log"
+msgstr "Celkem v Order log"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Type of order"
+msgstr "Typ zakázky"
+
+msgid "The order was not create by error."
+msgstr "Aby nebylo vytvořit chyby."
+
+msgid "The order was not saved by the error."
+msgstr "Pořadí nebyl uložen chybou."
+
+msgid "Type the following operation result:"
+msgstr "Zadejte následující výsledek operace:"
+
+msgid "unauthorized client"
+msgstr "neautorizanému"
+
+msgid "undefined"
+msgstr "nedefinované"
+
+msgid "Undefined client name"
+msgstr "Nedefinováno název klienta"
+
+msgid "Yes"
+msgstr "Ano"
+
